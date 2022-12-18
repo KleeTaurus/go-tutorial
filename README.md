@@ -22,3 +22,7 @@ A lot of go examples collected at https://www.golinuxcloud.com/getting-started-w
 3. 通过接口计算工资之和
 4. 将接口 Slice 作为参数，使得代码更简单
 5. 实现内置 Error 接口
+
+## Testing
+
+1. 编写单元测试
