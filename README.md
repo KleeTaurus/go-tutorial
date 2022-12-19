@@ -40,3 +40,9 @@ $ go test -bench . -benchtime 2s -count 2 -benchmem -cpu 4 -run notest
 
 1. 使用 ok 语法检查断言状态
 2. 使用 switch 语句检查接口类型
+
+## init
+
+1. init() 的基本使用方法
+2. 多个 init() 的执行顺序
+3. 多个 package 中 init() 的执行顺序
