@@ -35,3 +35,8 @@ A lot of go examples collected at https://www.golinuxcloud.com/getting-started-w
 $ go test -bench . -run notest
 $ go test -bench . -benchtime 2s -count 2 -benchmem -cpu 4 -run notest
 ```
+
+## Type Assertion
+
+1. 使用 ok 语法检查断言状态
+2. 使用 switch 语句检查接口类型
