@@ -25,4 +25,13 @@ A lot of go examples collected at https://www.golinuxcloud.com/getting-started-w
 
 ## Testing
 
-1. 编写单元测试
+1. 编写单元测试用例
+2. 编写性能测试代码
+3. 通过设置 timer 提升 Benchmark 的精准度
+
+如何在命令行运行性能测试?
+
+```bash
+$ go test -bench . -run notest
+$ go test -bench . -benchtime 2s -count 2 -benchmem -cpu 4 -run notest
+```

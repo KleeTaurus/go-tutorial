@@ -1,8 +1,10 @@
 package main
 
 import (
+	"math/rand"
 	"sort"
 	"testing"
+	"time"
 )
 
 func TestSum(t *testing.T) {
@@ -19,5 +21,20 @@ func TestSort(t *testing.T) {
 	sorted, _ := sortAndTotal(testValues)
 	if !sort.IntsAreSorted(sorted) {
 		t.Fatalf("Unsorted data %v\n", sorted)
+	}
+}
+
+func BenchmarkSort(b *testing.B) {
+	rand.Seed(time.Now().UnixNano())
+	size := 250
+	data := make([]int, size)
+	b.ResetTimer()
+	for i := 0; i < b.N; i++ {
+		b.StopTimer()
+		for j := 0; j < size; j++ {
+			data[j] = rand.Int()
+		}
+		b.StartTimer()
+		sortAndTotal(data)
 	}
 }
