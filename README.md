@@ -46,3 +46,9 @@ $ go test -bench . -benchtime 2s -count 2 -benchmem -cpu 4 -run notest
 1. init() 的基本使用方法
 2. 多个 init() 的执行顺序
 3. 多个 package 中 init() 的执行顺序
+
+## Generics
+
+1. 未采用 generic 的代码(重复)
+2. 使用 generic 简化代码
+3. 通过 type constraint 简化类型定义
