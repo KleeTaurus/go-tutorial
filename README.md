@@ -52,3 +52,9 @@ $ go test -bench . -benchtime 2s -count 2 -benchmem -cpu 4 -run notest
 1. 未采用 generic 的代码(重复)
 2. 使用 generic 简化代码
 3. 通过 type constraint 简化类型定义
+
+## Packages
+
+1. 调用 package 中公开的方法或变量
+2. 调用自定义 package 中的方法
+3. encode 或 decode YAML
