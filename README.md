@@ -58,3 +58,10 @@ $ go test -bench . -benchtime 2s -count 2 -benchmem -cpu 4 -run notest
 1. 调用 package 中公开的方法或变量
 2. 调用自定义 package 中的方法
 3. encode 或 decode YAML
+
+## Mutex
+
+1. Race condition 暴露的问题
+2. 使用 mutex 锁避免并发写
+3. 使用 RWMutex 提高性能
+4. 在结构体中定义 mutex
