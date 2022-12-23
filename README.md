@@ -65,3 +65,10 @@ $ go test -bench . -benchtime 2s -count 2 -benchmem -cpu 4 -run notest
 2. 使用 mutex 锁避免并发写
 3. 使用 RWMutex 提高性能
 4. 在结构体中定义 mutex
+
+## Time
+
+### Timing
+
+1. 使用 time.Since 和 time.Sub 方法计算时长
+2. 使用 defer 语法计算时长（倾向此方法，对代码污染比较小）
