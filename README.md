@@ -72,3 +72,11 @@ $ go test -bench . -benchtime 2s -count 2 -benchmem -cpu 4 -run notest
 
 1. 使用 time.Since 和 time.Sub 方法计算时长
 2. 使用 defer 语法计算时长（倾向此方法，对代码污染比较小）
+
+### Time Format
+
+1. 使用预定义格式输出时间
+2. 使用自定义格式输出时间
+3. 从字符串中解析时间
+4. 从字符串中解析时间（本地 Location）
+5. ParseDuration 方法介绍
