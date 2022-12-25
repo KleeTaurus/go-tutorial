@@ -80,3 +80,14 @@ $ go test -bench . -benchtime 2s -count 2 -benchmem -cpu 4 -run notest
 3. 从字符串中解析时间
 4. 从字符串中解析时间（本地 Location）
 5. ParseDuration 方法介绍
+
+## Logging
+
+### Log
+
+1. 修改默认 log 格式
+2. 默认支持的 flags 参数及使用方法
+3. 修改日期和时间格式
+4. 通过 SetPrefix 添加日志级别
+5. 自定义日志格式并写入文件
+6. 自定义日志格式同时写入 console 和文件

@@ -1,0 +1,2 @@
+INFO: 2022-12-25 3:46:34 AM: main.go:161: Log custom date and time in a logs.log file
+INFO: 2022-12-25 3:53:54 AM: main.go:188: Log to console and file
