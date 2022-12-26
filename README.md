@@ -91,3 +91,8 @@ $ go test -bench . -benchtime 2s -count 2 -benchmem -cpu 4 -run notest
 4. 通过 SetPrefix 添加日志级别
 5. 自定义日志格式并写入文件
 6. 自定义日志格式同时写入 console 和文件
+
+## Local Package
+
+1. 创建本地 package 和可复用的代码
+2. 在 main 方法中调用 pakcage 中的方法
