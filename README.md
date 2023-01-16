@@ -96,3 +96,8 @@ $ go test -bench . -benchtime 2s -count 2 -benchmem -cpu 4 -run notest
 
 1. 创建本地 package 和可复用的代码
 2. 在 main 方法中调用 pakcage 中的方法
+
+## Reflection
+
+1. Kind、TypeOf 和 ValueOf 的基本用法
+2. 通过 ValueOf 的 Int() 或 String() 方法获取指定类型的值
