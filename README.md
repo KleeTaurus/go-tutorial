@@ -1,8 +1,11 @@
 # go-tutorial
 
-A lot of go examples collected at https://www.golinuxcloud.com/getting-started-with-golang/
+A lot of go examples collected at:
 
-## Maps
+1. https://www.golinuxcloud.com/getting-started-with-golang/
+2. https://golangbot.com/
+
+## (Maps)[./maps/main.go]
 
 1. 使用 var 声明 map
 2. 使用 map literal 初始化 map
@@ -41,6 +44,11 @@ $ go test -bench . -benchtime 2s -count 2 -benchmem -cpu 4 -run notest
 1. 使用 ok 语法检查断言状态
 2. 使用 switch 语句检查接口类型
 
+## Reflection
+
+1. Kind、TypeOf 和 ValueOf 的基本用法
+2. 通过 ValueOf 的 Int() 或 String() 方法获取指定类型的值
+
 ## init
 
 1. init() 的基本使用方法
@@ -58,6 +66,11 @@ $ go test -bench . -benchtime 2s -count 2 -benchmem -cpu 4 -run notest
 1. 调用 package 中公开的方法或变量
 2. 调用自定义 package 中的方法
 3. encode 或 decode YAML
+
+## Local Package
+
+1. 创建本地 package 和可复用的代码
+2. 在 main 方法中调用 pakcage 中的方法
 
 ## Mutex
 
@@ -92,12 +105,3 @@ $ go test -bench . -benchtime 2s -count 2 -benchmem -cpu 4 -run notest
 5. 自定义日志格式并写入文件
 6. 自定义日志格式同时写入 console 和文件
 
-## Local Package
-
-1. 创建本地 package 和可复用的代码
-2. 在 main 方法中调用 pakcage 中的方法
-
-## Reflection
-
-1. Kind、TypeOf 和 ValueOf 的基本用法
-2. 通过 ValueOf 的 Int() 或 String() 方法获取指定类型的值
