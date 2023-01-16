@@ -5,7 +5,7 @@ A lot of go examples collected at:
 1. https://www.golinuxcloud.com/getting-started-with-golang/
 2. https://golangbot.com/
 
-## (Maps)[./maps/main.go]
+## [Maps](./maps/main.go)
 
 1. 使用 var 声明 map
 2. 使用 map literal 初始化 map
