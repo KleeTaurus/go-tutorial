@@ -64,10 +64,9 @@
 1. [ASCII Control Codes](https://kapeli.com/cheat_sheets/ASCII_Tables.docset/Contents/Resources/Documents/index)
 2. [HTTP Header Fields](https://kapeli.com/cheat_sheets/HTTP_Header_Fields.docset/Contents/Resources/Documents/index.html)
 3. [HTTP Status Codes](https://kapeli.com/cheat_sheets/HTTP_Status_Codes.docset/Contents/Resources/Documents/index.html)
-4. [Regular Expressions](https://kapeli.com/cheat_sheets/Regular_Expressions.docset/Contents/Resources/Documents/index.html)
-5. [RegExr is an online tool to learn, build, & test Regular Expressions (RegEx / RegExp).](https://regexr.com/)
-6. [An Overview of Go's Tooling](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
-7. [Developer Roadmaps - Go Developer](https://roadmap.sh/golang)
+4. [regex101](https://regex101.com)
+5. [An Overview of Go's Tooling](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
+6. [Developer Roadmaps - Go Developer](https://roadmap.sh/golang)
 
 # 代码示例
 
