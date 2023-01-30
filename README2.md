@@ -6,7 +6,7 @@
 
 [Arrays 的基本用法](https://gobyexample.com/arrays)
 
-[Slices 的基本用法](https://gobyexample.com/slices) [Slices intro in detail](https://go.dev/blog/slices-intro)
+[Slices 的基本用法](https://gobyexample.com/slices), 此处为 Go 官方的 [Slices 详解](https://go.dev/blog/slices-intro)
 
 [Maps 的基本用法](https://gobyexample.com/maps)
 
@@ -29,6 +29,11 @@
 ## 标准库
 
 [Go 语言的3种排序方式](https://yourbasic.org/golang/how-to-sort-in-go/)
+
+1. 利用标准库函数实现 int, float64 和 string 的排序
+2. 自定义 comparator 函数（一次性排序场景）
+3. 自定义类型并实现 sort.Interface 接口（重复排序场景）
+4. 对 map 进行排序（前提是将 key 或 value 转化为 slice 先行排序）
 
 # 存储
 
