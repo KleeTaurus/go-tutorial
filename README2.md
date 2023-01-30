@@ -4,6 +4,12 @@
 
 ## Arrays, Slices 和 Maps
 
+[Arrays 的基本用法](https://gobyexample.com/arrays)
+
+[Slices 的基本用法](https://gobyexample.com/slices)
+
+[Maps 的基本用法](https://gobyexample.com/maps)
+
 ## Strings
 
 ## Files
@@ -19,6 +25,10 @@
 ## 测试
 
 ## Reflection
+
+## 标准库
+
+[Go 语言的3种排序方式](https://yourbasic.org/golang/how-to-sort-in-go/)
 
 # 存储
 
