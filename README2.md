@@ -6,7 +6,7 @@
 
 [Arrays 的基本用法](https://gobyexample.com/arrays)
 
-[Slices 的基本用法](https://gobyexample.com/slices)
+[Slices 的基本用法](https://gobyexample.com/slices) [Slices intro in detail](https://go.dev/blog/slices-intro)
 
 [Maps 的基本用法](https://gobyexample.com/maps)
 
