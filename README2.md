@@ -91,9 +91,13 @@
 
 [All Design Patterns in Go (Golang)](https://golangbyexample.com/all-design-patterns-golang/)
 
-## 行为设计模式
+## 创建模式
 
-## 结构设计模式
+* [单例模式](https://refactoring.guru/design-patterns/singleton/go/example#example-0)
+
+## 行为模式
+
+## 结构模式
 
 # 其他开发资源
 
@@ -111,3 +115,4 @@
 * [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
 * [Learn Go with tests](https://studygolang.gitbook.io/learn-go-with-tests/)
 * [Programming Guide of Go](https://programming.guide/go/)
+* [Golang By Example](https://golangbyexample.com/)
