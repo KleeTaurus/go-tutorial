@@ -1,10 +1,16 @@
-# 基础语言
+# Go 语言
 
 * [Go 官方文档](https://go.dev/doc/)
 * [Go 开发工具](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
 * [Go 开发者 Roadmaps](https://roadmap.sh/golang)
 
 这是一个标准 Go 项目的[目录结构](https://yourbasic.org/golang/library-package-example-template/)
+
+## 基础
+
+* [iota 的使用方法](https://yourbasic.org/golang/iota/)
+* [获取对象类型](https://yourbasic.org/golang/find-type-of-object/)
+* [读取环境变量](https://yourbasic.org/golang/environment-variables/)
 
 ## Arrays, Slices 和 Maps
 
@@ -28,13 +34,23 @@
 
 ## Time 和 Date
 
+* [获取系统当前时间](https://yourbasic.org/golang/current-time/)
+* [计算代码执行时长](https://yourbasic.org/golang/measure-execution-time/)
+
+## Random numbers
+
+* [生成随机数或字母](https://yourbasic.org/golang/generate-number-random-range/)
+* [随机打散 slice 或 array](https://yourbasic.org/golang/shuffle-slice-array/)
+
 ## Goroutine 和 Channels
+
+* [等待 goroutines 执行结束](https://yourbasic.org/golang/wait-for-goroutines-waitgroup/)
 
 ## Interfaces
 
-## 安全
+## Security
 
-## 测试
+## Testing
 
 ## Reflection
 
@@ -81,6 +97,7 @@
 
 # 其他开发资源
 
+* [Git](https://kapeli.com/cheat_sheets/Git.docset/Contents/Resources/Documents/index.html)
 * [ASCII Control Codes](https://kapeli.com/cheat_sheets/ASCII_Tables.docset/Contents/Resources/Documents/index)
 * [HTTP Header Fields](https://kapeli.com/cheat_sheets/HTTP_Header_Fields.docset/Contents/Resources/Documents/index.html)
 * [HTTP Status Codes](https://kapeli.com/cheat_sheets/HTTP_Status_Codes.docset/Contents/Resources/Documents/index.html)
