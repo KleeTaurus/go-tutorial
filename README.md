@@ -1,107 +1,119 @@
-# go-tutorial
+# Go 语言
 
-A lot of go examples collected at:
+* [Go 官方文档](https://go.dev/doc/)
+* [Go 开发工具](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
+* [Go 开发者 Roadmaps](https://roadmap.sh/golang)
 
-1. https://www.golinuxcloud.com/getting-started-with-golang/
-2. https://golangbot.com/
+这是一个标准 Go 项目的[目录结构](https://yourbasic.org/golang/library-package-example-template/)
 
-## [Maps](./maps/main.go)
+## 基础
 
-1. 使用 var 声明 map
-2. 使用 map literal 初始化 map
-3. 使用 make 函数初始化 map
-4. 为 map 添加 key/value
-5. 访问 map 中的 value
-6. 更新 map 中的 value
-7. 删除 map 中的元素
-8. 检查 map 中的 key 是否存在
-9. 遍历 map 中的元素
-10. 顺序遍历 map 中的元素
+* [iota 的使用方法](https://yourbasic.org/golang/iota/)
+* [获取对象类型](https://yourbasic.org/golang/find-type-of-object/)
+* [读取环境变量](https://yourbasic.org/golang/environment-variables/)
 
-## [Interfaces](./interfaces/main.go)
+## Arrays, Slices 和 Maps
 
-1. 定义一个空接口
-2. 实现简单的接口
-3. 通过接口计算工资之和
-4. 将接口 Slice 作为参数，使得代码更简单
-5. 实现内置 Error 接口
+* [Arrays 的基本用法](https://gobyexample.com/arrays)
+* [Slices 的基本用法](https://gobyexample.com/slices), 此处为 Go 官方的 [Slices 详解](https://go.dev/blog/slices-intro)
+* [Maps 的基本用法](https://gobyexample.com/maps)
+* [两种从 slice 中删除元素的方法](https://yourbasic.org/golang/delete-element-slice/)
+* [获取或删除 slice 中的最后一个元素](https://yourbasic.org/golang/last-item-in-slice/)
+* [如何对 map 中的 key 或 value 进行排序](https://yourbasic.org/golang/sort-map-keys-values/)
 
-## [Testing](./tests/main_test.go)
+## Strings
 
-1. 编写单元测试用例
-2. 编写性能测试代码
-3. 通过设置 timer 提升 Benchmark 的精准度
+* [float 与 string 之间的互转](https://yourbasic.org/golang/convert-string-to-float/)
+* [int, int64 与 string 之间的互转](https://yourbasic.org/golang/convert-int-to-string/)
+* [将 interface 转换为 string](https://yourbasic.org/golang/interface-to-string/)
+* [string 常用操作](https://yourbasic.org/golang/string-functions-reference-cheat-sheet/)
 
-如何在命令行运行性能测试?
+## Files
 
-```bash
-$ go test -bench . -run notest
-$ go test -bench . -benchtime 2s -count 2 -benchmem -cpu 4 -run notest
-```
+* [逐行读取文件内容](https://yourbasic.org/golang/read-file-line-by-line/)
+* [读取指定目录下的文件列表](https://yourbasic.org/golang/list-files-in-directory/)
 
-## [Type Assertion](./type-assertion/main.go)
+## Time 和 Date
 
-1. 使用 ok 语法检查断言状态
-2. 使用 switch 语句检查接口类型
+* [获取系统当前时间](https://yourbasic.org/golang/current-time/)
+* [计算代码执行时长](https://yourbasic.org/golang/measure-execution-time/)
 
-## [Reflection](./reflection/main.go)
+## Random numbers
 
-1. Kind、TypeOf 和 ValueOf 的基本用法
-2. 通过 ValueOf 的 Int() 或 String() 方法获取指定类型的值
+* [生成随机数或字母](https://yourbasic.org/golang/generate-number-random-range/)
+* [随机打散 slice 或 array](https://yourbasic.org/golang/shuffle-slice-array/)
 
-## [init](./init/main.go)
+## Goroutine 和 Channels
 
-1. init() 的基本使用方法
-2. 多个 init() 的执行顺序
-3. 多个 package 中 init() 的执行顺序
+* [等待 goroutines 执行结束](https://yourbasic.org/golang/wait-for-goroutines-waitgroup/)
 
-## [Generics](./generics/main.go)
+## Interfaces
 
-1. 未采用 generic 的代码(重复)
-2. 使用 generic 简化代码
-3. 通过 type constraint 简化类型定义
+## Security
 
-## [Packages](./packages/main.go)
+## Testing
 
-1. 调用 package 中公开的方法或变量
-2. 调用自定义 package 中的方法
-3. encode 或 decode YAML
+## Reflection
 
-## [Local Package](./local-package/main.go)
+## 标准库
 
-1. 创建本地 package 和可复用的代码
-2. 在 main 方法中调用 pakcage 中的方法
+[Go 语言的3种排序方式](https://yourbasic.org/golang/how-to-sort-in-go/)
 
-## [Mutex](./mutex/main.go)
+1. 利用标准库函数实现 int, float64 和 string 的排序
+2. 自定义 comparator 函数 (一次性排序场景)
+3. 自定义类型并实现 sort.Interface 接口 (代码可重复的排序场景)
+4. 对 map 进行排序 (前提是将 key 或 value 转化为 slice 先行排序)
 
-1. Race condition 暴露的问题
-2. 使用 mutex 锁避免并发写
-3. 使用 RWMutex 提高性能
-4. 在结构体中定义 mutex
+# 存储
 
-## Time
+## MySQL
 
-### [Timing](./time/timing/main.go)
+[github](https://github.com/go-sql-driver/mysql)
 
-1. 使用 time.Since 和 time.Sub 方法计算时长
-2. 使用 defer 语法计算时长（倾向此方法，对代码污染比较小）
+## Redis
 
-### [Time Format](./time/time_format/main.go)
+[github](https://github.com/redis/go-redis)
 
-1. 使用预定义格式输出时间
-2. 使用自定义格式输出时间
-3. 从字符串中解析时间
-4. 从字符串中解析时间（本地 Location）
-5. ParseDuration 方法介绍
+## Kafka
 
-## Logging
+[github](https://github.com/segmentio/kafka-go)
 
-### [Log](./logging/log/main.go)
+# 框架
 
-1. 修改默认 log 格式
-2. 默认支持的 flags 参数及使用方法
-3. 修改日期和时间格式
-4. 通过 SetPrefix 添加日志级别
-5. 自定义日志格式并写入文件
-6. 自定义日志格式同时写入 console 和文件
+## Gin Web Framework
 
+[github](https://github.com/gin-gonic/gin/)
+
+## GORM
+
+[github](https://github.com/go-gorm/gorm/blob/master/README.md)
+
+# 设计模式
+
+[DESIGN PATTERNS in GO](https://refactoring.guru/design-patterns/go)
+
+## 创建模式
+
+* [单例模式](https://refactoring.guru/design-patterns/singleton/go/example#example-0)
+
+## 行为模式
+
+## 结构模式
+
+# 其他开发资源
+
+* [Git](https://kapeli.com/cheat_sheets/Git.docset/Contents/Resources/Documents/index.html)
+* [ASCII Control Codes](https://kapeli.com/cheat_sheets/ASCII_Tables.docset/Contents/Resources/Documents/index)
+* [HTTP Header Fields](https://kapeli.com/cheat_sheets/HTTP_Header_Fields.docset/Contents/Resources/Documents/index.html)
+* [HTTP Status Codes](https://kapeli.com/cheat_sheets/HTTP_Status_Codes.docset/Contents/Resources/Documents/index.html)
+* [regex101](https://regex101.com)
+
+# 代码示例
+
+* [Go by Example](https://gobyexample.com/)
+* [yourbasic](https://yourbasic.org/golang/)
+* [GeeksforGeeks](https://www.geeksforgeeks.org/golang/?ref=ghm)
+* [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
+* [Learn Go with tests](https://studygolang.gitbook.io/learn-go-with-tests/)
+* [Programming Guide of Go](https://programming.guide/go/)
+* [Golang By Example](https://golangbyexample.com/)
