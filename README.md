@@ -1,12 +1,16 @@
 # Go 语言
 
 * [Go 官方文档](https://go.dev/doc/)
-* [Go 开发工具](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
 * [Go 开发者 Roadmaps](https://roadmap.sh/golang)
 
 这是一个标准 Go 项目的[目录结构](https://yourbasic.org/golang/library-package-example-template/)
 
-## 基础
+## 开发工具
+
+* [Go 开发工具](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
+* [如何使用第三方工具 Delve debug Go 程序](https://golang.cafe/blog/golang-debugging-with-delve.html)
+
+## Basic
 
 * [iota 的使用方法](https://yourbasic.org/golang/iota/)
 * [获取对象类型](https://yourbasic.org/golang/find-type-of-object/)
@@ -31,6 +35,7 @@
 ## Files
 
 * [逐行读取文件内容](https://yourbasic.org/golang/read-file-line-by-line/)
+* [往文件中追加内容](https://yourbasic.org/golang/append-to-file/)
 * [读取指定目录下的文件列表](https://yourbasic.org/golang/list-files-in-directory/)
 
 ## Time 和 Date
@@ -45,6 +50,7 @@
 
 ## Goroutine 和 Channels
 
+* [什么是 Data races](https://yourbasic.org/golang/data-races-explained/), 如何通过 channel 避免 Data races 的发生
 * [等待 goroutines 执行结束](https://yourbasic.org/golang/wait-for-goroutines-waitgroup/)
 
 ## Interfaces
