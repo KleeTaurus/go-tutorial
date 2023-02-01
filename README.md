@@ -120,10 +120,15 @@
 # 其他开发资源
 
 * [Git](https://kapeli.com/cheat_sheets/Git.docset/Contents/Resources/Documents/index.html)
+* [Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 * [ASCII Control Codes](https://kapeli.com/cheat_sheets/ASCII_Tables.docset/Contents/Resources/Documents/index)
 * [HTTP Header Fields](https://kapeli.com/cheat_sheets/HTTP_Header_Fields.docset/Contents/Resources/Documents/index.html)
 * [HTTP Status Codes](https://kapeli.com/cheat_sheets/HTTP_Status_Codes.docset/Contents/Resources/Documents/index.html)
+
+# 在线工具
+
 * [regex101](https://regex101.com)
+* [Epoch Converter](https://www.epochconverter.com/) Epoch & Unix Timestamp 转换工具
 
 # 代码示例
 
@@ -134,3 +139,4 @@
 * [Learn Go with tests](https://studygolang.gitbook.io/learn-go-with-tests/)
 * [Programming Guide of Go](https://programming.guide/go/)
 * [Golang By Example](https://golangbyexample.com/)
+* [Go tips and snippets](https://freshman.tech/snippets/go/)
