@@ -53,6 +53,7 @@
 * [什么是 Data races](https://yourbasic.org/golang/data-races-explained/), 如何通过 channel 避免 Data races 的发生
 * [如何通过 --race 参数检查代码是否存在 Data races 问题](https://yourbasic.org/golang/detect-data-races/)
 * [等待 goroutines 执行结束](https://yourbasic.org/golang/wait-for-goroutines-waitgroup/)
+* [mutex 互斥锁的使用方法](https://yourbasic.org/golang/mutex-explained/)
 
 ## Interfaces
 
