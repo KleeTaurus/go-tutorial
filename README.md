@@ -1,6 +1,6 @@
 # Go 语言
 
-* [Go 官方文档](https://go.dev/doc/)
+* [Go 官方文档](https://go.dev/doc/), [标准库](https://pkg.go.dev/std), [Effective Go](https://go.dev/doc/effective_go)
 * [Go 开发者 Roadmaps](https://roadmap.sh/golang)
 
 这是一个标准 Go 项目的[目录结构](https://yourbasic.org/golang/library-package-example-template/)
@@ -76,25 +76,30 @@
 
 ## MySQL
 
-[github](https://github.com/go-sql-driver/mysql)
+* [go-sql-driver](https://github.com/go-sql-driver/mysql)
+* [如何访问关系型数据库](https://go.dev/doc/tutorial/database-access)
+* [MySQL 教程](https://www.w3schools.com/MySQL/)
 
 ## Redis
 
-[github](https://github.com/redis/go-redis)
+* [go-redis](https://github.com/redis/go-redis)
+* [Redis 官网文档](https://redis.io/docs/)
 
 ## Kafka
 
-[github](https://github.com/segmentio/kafka-go)
+* [kafka-go](https://github.com/segmentio/kafka-go)
 
 # 框架
 
 ## Gin Web Framework
 
-[github](https://github.com/gin-gonic/gin/)
+* [gin-gonic](https://github.com/gin-gonic/gin/) Gin is a web framework written in Go
+* [API 文档及示例](https://pkg.go.dev/github.com/gin-gonic/gin)
 
 ## GORM
 
-[github](https://github.com/go-gorm/gorm/blob/master/README.md)
+* [GORM](https://github.com/go-gorm/gorm/) The fantastic ORM library for Golang, aims to be developer friendly
+* [API 文档及示例](https://gorm.io/docs/)
 
 # 系统设计
 
