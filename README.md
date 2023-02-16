@@ -54,6 +54,8 @@
 * [如何通过 --race 参数检查代码是否存在 Data races 问题](https://yourbasic.org/golang/detect-data-races/)
 * [等待 goroutines 执行结束](https://yourbasic.org/golang/wait-for-goroutines-waitgroup/)
 * [mutex 互斥锁的使用方法](https://yourbasic.org/golang/mutex-explained/)
+* [What are channels used for?](https://stackoverflow.com/questions/39826692/what-are-channels-used-for)
+* [Concurrency in Go with Goroutines and Channel](https://blog.knoldus.com/achieving-concurrency-in-go/)
 
 ## Interfaces
 
@@ -127,7 +129,8 @@
 
 # 在线工具
 
-* [regex101](https://regex101.com)
+* [JSON Formatter & Validator](https://jsonformatter.curiousconcept.com/#) JSON 在线格式化/验证工具
+* [regex101](https://regex101.com) 正则表达式验证工具
 * [Epoch Converter](https://www.epochconverter.com/) Epoch & Unix Timestamp 转换工具
 
 # 代码示例
@@ -140,3 +143,7 @@
 * [Programming Guide of Go](https://programming.guide/go/)
 * [Golang By Example](https://golangbyexample.com/)
 * [Go tips and snippets](https://freshman.tech/snippets/go/)
+
+# 其他好的文章
+
+* [How To Benchmark HTTP Latency with wrk on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-benchmark-http-latency-with-wrk-on-ubuntu-14-04#simulate-advanced-http-requests-with-lua-scripts)
