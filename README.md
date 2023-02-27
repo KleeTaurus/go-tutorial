@@ -156,3 +156,4 @@
 
 * [How To Benchmark HTTP Latency with wrk on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-benchmark-http-latency-with-wrk-on-ubuntu-14-04#simulate-advanced-http-requests-with-lua-scripts)
 * [Benchmarking in Golang: Improving function performance](https://blog.logrocket.com/benchmarking-golang-improve-function-performance/)
+* [Specifying How Fields Are Separated in awk](https://www.gnu.org/software/gawk/manual/html_node/Field-Separators.html)
