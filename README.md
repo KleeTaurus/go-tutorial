@@ -31,6 +31,7 @@
 * [float 与 string 之间的互转](https://yourbasic.org/golang/convert-string-to-float/)
 * [int, int64 与 string 之间的互转](https://yourbasic.org/golang/convert-int-to-string/)
 * [将 interface 转换为 string](https://yourbasic.org/golang/interface-to-string/)
+* [将结构体转换为 string](https://www.technicalfeeder.com/2022/12/golang-converting-struct-to-string/)
 * [string 常用操作](https://yourbasic.org/golang/string-functions-reference-cheat-sheet/)
 
 ## Regexp
