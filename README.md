@@ -153,6 +153,7 @@
 * [Programming Guide of Go](https://programming.guide/go/)
 * [Golang By Example](https://golangbyexample.com/)
 * [Go tips and snippets](https://freshman.tech/snippets/go/)
+* [Go from the beginning](https://softchris.github.io/golang-book/)
 
 # 其他好的文章
 
