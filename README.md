@@ -34,6 +34,7 @@
 * [将结构体转换为 string](https://www.technicalfeeder.com/2022/12/golang-converting-struct-to-string/)
 * [使用正则对字符串进行替换](https://www.geeksforgeeks.org/golang-replacing-all-string-which-matches-with-regular-expression/)
 * [string 常用操作](https://yourbasic.org/golang/string-functions-reference-cheat-sheet/)
+* [将数字格式化为千分位的字符串](https://gosamples.dev/print-number-thousands-separator/)
 
 ## Regexp
 
