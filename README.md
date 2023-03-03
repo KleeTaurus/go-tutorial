@@ -49,6 +49,7 @@
 ## Time 和 Date
 
 * [获取系统当前时间](https://yourbasic.org/golang/current-time/)
+* [如何格式化时间](https://yourbasic.org/golang/format-parse-string-time-date-example/)
 * [计算代码执行时长](https://yourbasic.org/golang/measure-execution-time/)
 
 ## Random numbers
