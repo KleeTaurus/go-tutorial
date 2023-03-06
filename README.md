@@ -24,7 +24,8 @@
 * [两种从 slice 中删除元素的方法](https://yourbasic.org/golang/delete-element-slice/)
 * [获取或删除 slice 中的最后一个元素](https://yourbasic.org/golang/last-item-in-slice/)
 * [从 slice 中删除重复的 item](https://www.geeksforgeeks.org/how-to-remove-duplicate-values-from-slice-in-golang/)
-* [如何对 map 中的 key 或 value 进行排序](https://yourbasic.org/golang/sort-map-keys-values/)
+* [对 map 中的 key 或 value 进行排序](https://yourbasic.org/golang/sort-map-keys-values/)
+* [比较两个 slices 的内容是否相同](https://yourbasic.org/golang/compare-slices/)
 
 ## Strings
 
