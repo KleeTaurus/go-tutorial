@@ -93,6 +93,7 @@
 * [go-sql-driver](https://github.com/go-sql-driver/mysql)
 * [如何访问关系型数据库](https://go.dev/doc/tutorial/database-access)
 * [MySQL 教程](https://www.w3schools.com/MySQL/)
+* [如何通过 LIMIT 和 OFFSET 实现数据分页](https://www.tutorialspoint.com/pagination-using-mysql-limit-offset#)
 
 ## Redis
 
