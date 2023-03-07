@@ -1,24 +1,16 @@
 package main
 
-func findCommonDivisor(a, b int) (int, bool) {
+func findCommonDivisor(a, b int) int {
 	var min, max int
 	if a < b {
-		min = a
-		max = b
+		min, max = a, b
 	} else {
-		min = b
-		max = a
+		min, max = b, a
 	}
 
-	if max%min == 0 {
-		return min, true
+	mod := max % min
+	if mod == 0 {
+		return min
 	}
-
-	for i := min / 2; i > 1; i-- {
-		if a%i == 0 && b%i == 0 {
-			return i, true
-		}
-	}
-
-	return 0, false
+	return findCommonDivisor(min, mod)
 }

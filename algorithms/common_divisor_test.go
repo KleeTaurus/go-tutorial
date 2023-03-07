@@ -4,14 +4,14 @@ import "testing"
 
 func TestCommonDivisor(t *testing.T) {
 	want := 25
-	got, ok := findCommonDivisor(25, 50)
-	if !ok || got != want {
+	got := findCommonDivisor(25, 50)
+	if got != want {
 		t.Errorf("want: %v, got: %v\n", want, got)
 	}
 
-	want = 8
-	got, ok = findCommonDivisor(168, 64)
-	if !ok || got != want {
+	want = 80
+	got = findCommonDivisor(1680, 640)
+	if got != want {
 		t.Errorf("want: %v, got: %v\n", want, got)
 	}
 }
