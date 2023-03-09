@@ -124,15 +124,10 @@
 
 # 设计模式
 
-[DESIGN PATTERNS in GO](https://refactoring.guru/design-patterns/go)
-
-## 创建模式
-
+* [DESIGN PATTERNS in GO](https://refactoring.guru/design-patterns/go)
+* [go-patterns](https://github.com/tmrts/go-patterns)
+* [Golang Functional Options Pattern](https://golang.cafe/blog/golang-functional-options-pattern.html)
 * [单例模式](https://refactoring.guru/design-patterns/singleton/go/example#example-0)
-
-## 行为模式
-
-## 结构模式
 
 # 其他开发资源
 
