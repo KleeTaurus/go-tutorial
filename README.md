@@ -112,6 +112,7 @@
 
 * [gin-gonic](https://github.com/gin-gonic/gin/) Gin is a web framework written in Go
 * [API 文档及示例](https://pkg.go.dev/github.com/gin-gonic/gin)
+* [Model binding and validation](https://gin-gonic.com/docs/examples/binding-and-validation/)
 
 ## GORM
 
