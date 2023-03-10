@@ -1,10 +1,9 @@
 package main
 
 func convert(nums []int) [][]int {
-	length := len(nums)
-	table := make([][]int, length, length)
+	table := make([][]int, len(nums))
 	for i, item := range nums {
-		table[i] = make([]int, length, length)
+		table[i] = make([]int, len(nums))
 		for j, num := range nums {
 			table[i][j] = item * num
 		}
