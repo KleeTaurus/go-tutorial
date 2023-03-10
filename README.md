@@ -76,6 +76,7 @@
 ## Testing
 
 * [Testify: easy assertions and mocking](https://github.com/stretchr/testify/)
+* [使用 benchmark 测试函数性能](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go)
 
 ## Reflection
 
