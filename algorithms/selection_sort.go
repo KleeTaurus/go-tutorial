@@ -1,6 +1,6 @@
-package main
+package algorithms
 
-func findSmallest(items []int) int {
+func FindSmallest(items []int) int {
 	if len(items) == 0 {
 		return -1
 	}
@@ -14,11 +14,11 @@ func findSmallest(items []int) int {
 	return sidx
 }
 
-func selectionSort(items []int) []int {
+func SelectionSort(items []int) []int {
 	target := []int{}
 
 	for len(items) > 0 {
-		sidx := findSmallest(items)
+		sidx := FindSmallest(items)
 		if sidx == -1 {
 			break
 		}

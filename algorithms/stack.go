@@ -1,16 +1,16 @@
-package main
+package algorithms
 
-func greet(name string) {
+func Greet(name string) {
 	print("hello, " + name + "!\n")
-	greet2(name)
+	Greet2(name)
 	print("getting ready to say bye...\n")
-	bye()
+	Bye()
 }
 
-func greet2(name string) {
+func Greet2(name string) {
 	print("how are you, " + name + "?\n")
 }
 
-func bye() {
+func Bye() {
 	print("ok bye!\n")
 }

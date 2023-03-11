@@ -1,4 +1,4 @@
-package main
+package algorithms
 
 import (
 	"reflect"
@@ -14,7 +14,7 @@ func TestConvert(t *testing.T) {
 		{20, 30, 70, 80, 100},
 	}
 
-	got := convert([]int{2, 3, 7, 8, 10})
+	got := Convert([]int{2, 3, 7, 8, 10})
 	if !reflect.DeepEqual(want, got) {
 		t.Errorf("want: %v, got: %v\n", want, got)
 	}
@@ -22,6 +22,6 @@ func TestConvert(t *testing.T) {
 
 func BenchmarkConvert(b *testing.B) {
 	for n := 0; n < b.N; n++ {
-		convert([]int{2, 3, 7, 8, 10})
+		Convert([]int{2, 3, 7, 8, 10})
 	}
 }

@@ -1,6 +1,6 @@
-package main
+package algorithms
 
-func quickSort(nums []int) []int {
+func QuickSort(nums []int) []int {
 	if len(nums) < 2 {
 		return nums
 	}
@@ -19,7 +19,7 @@ func quickSort(nums []int) []int {
 		}
 	}
 
-	target := append(quickSort(lower), pivot)
-	target = append(target, quickSort(higher)...)
+	target := append(QuickSort(lower), pivot)
+	target = append(target, QuickSort(higher)...)
 	return target
 }

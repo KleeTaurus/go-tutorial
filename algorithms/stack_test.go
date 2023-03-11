@@ -1,7 +1,7 @@
-package main
+package algorithms
 
 import "testing"
 
 func TestGreet(t *testing.T) {
-	greet("maggie")
+	Greet("maggie")
 }

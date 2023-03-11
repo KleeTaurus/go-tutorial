@@ -1,6 +1,6 @@
-package main
+package algorithms
 
-func findMax(nums []int) int {
+func FindMax(nums []int) int {
 	if len(nums) == 0 {
 		return -1
 	} else if len(nums) == 1 {
@@ -12,7 +12,7 @@ func findMax(nums []int) int {
 		return nums[0]
 	}
 
-	max := findMax(nums[1:])
+	max := FindMax(nums[1:])
 	if nums[0] < max {
 		return max
 	}

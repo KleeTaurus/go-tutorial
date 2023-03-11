@@ -1,6 +1,6 @@
-package main
+package algorithms
 
-func convert(nums []int) [][]int {
+func Convert(nums []int) [][]int {
 	table := make([][]int, len(nums))
 	for i, item := range nums {
 		table[i] = make([]int, len(nums))

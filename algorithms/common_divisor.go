@@ -1,6 +1,6 @@
-package main
+package algorithms
 
-func findCommonDivisor(a, b int) int {
+func FindCommonDivisor(a, b int) int {
 	var min, max int
 	if a < b {
 		min, max = a, b
@@ -12,5 +12,5 @@ func findCommonDivisor(a, b int) int {
 	if mod == 0 {
 		return min
 	}
-	return findCommonDivisor(min, mod)
+	return FindCommonDivisor(min, mod)
 }

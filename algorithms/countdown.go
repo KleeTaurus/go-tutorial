@@ -1,9 +1,9 @@
-package main
+package algorithms
 
-func countdown(n int, target []int) {
+func Countdown(n int, target []int) {
 	target = append(target, n)
 	if n <= 0 {
 		return
 	}
-	countdown(n-1, target)
+	Countdown(n-1, target)
 }

@@ -1,4 +1,4 @@
-package main
+package algorithms
 
 func factorial(n int) int {
 	if n == 1 {

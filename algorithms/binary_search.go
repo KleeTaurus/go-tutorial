@@ -1,6 +1,6 @@
-package main
+package algorithms
 
-func search(nums []int, target int) int {
+func BinarySearch(nums []int, target int) int {
 	if len(nums) == 0 {
 		return -1
 	}
