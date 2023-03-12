@@ -89,6 +89,11 @@
 3. 自定义类型并实现 sort.Interface 接口 (代码可重复的排序场景)
 4. 对 map 进行排序 (前提是将 key 或 value 转化为 slice 先行排序)
 
+## 算法
+
+* [Algorithms implemented in Go (for education)](https://github.com/TheAlgorithms/Go)
+* [数据结构与算法](https://awesome-go.com/data-structures-and-algorithms/)
+
 # 存储
 
 ## MySQL
