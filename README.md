@@ -1,7 +1,7 @@
 # Go 语言
 
 * [Go 官方文档](https://go.dev/doc/), [标准库](https://pkg.go.dev/std), [Effective Go](https://go.dev/doc/effective_go)
-* [Go 开发者 Roadmaps](https://roadmap.sh/golang)
+* [Go 开发者 Roadmaps](https://roadmap.sh/golang) 这里可以参考全部后端技术栈 [Roadmaps](https://roadmap.sh/backend)
 
 这是一个标准 Go 项目的[目录结构](https://yourbasic.org/golang/library-package-example-template/)
 
