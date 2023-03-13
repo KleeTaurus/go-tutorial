@@ -1,14 +1,17 @@
 # Go 语言
 
-* [Go 官方文档](https://go.dev/doc/), [标准库](https://pkg.go.dev/std), [Effective Go](https://go.dev/doc/effective_go)
-* [Go 开发者 Roadmaps](https://roadmap.sh/golang) 这里可以参考全部后端技术栈 [Roadmaps](https://roadmap.sh/backend)
+* [Go 官方文档](https://go.dev/doc/)
+* [标准库介绍](https://pkg.go.dev/std)
+* [Effective Go](https://go.dev/doc/effective_go)
+
+[Go 开发者 Roadmaps](https://roadmap.sh/golang) 罗列了所有 Go 语言相关的技术点，如果对整个后端技术栈感兴趣可以参考这里 [Backend Roadmaps](https://roadmap.sh/backend)
 
 这是一个标准 Go 项目的[目录结构](https://yourbasic.org/golang/library-package-example-template/)
 
 ## 开发工具
 
-* [Go 开发工具](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
-* [如何使用第三方工具 Delve debug Go 程序](https://golang.cafe/blog/golang-debugging-with-delve.html)
+* [Go 开发工具介绍](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
+* [如何使用 Delve debug Go 程序](https://golang.cafe/blog/golang-debugging-with-delve.html)
 
 ## Basic
 
@@ -33,7 +36,6 @@
 * [int, int64 与 string 之间的互转](https://yourbasic.org/golang/convert-int-to-string/)
 * [将 interface 转换为 string](https://yourbasic.org/golang/interface-to-string/)
 * [将结构体转换为 string](https://www.technicalfeeder.com/2022/12/golang-converting-struct-to-string/)
-* [使用正则对字符串进行替换](https://www.geeksforgeeks.org/golang-replacing-all-string-which-matches-with-regular-expression/)
 * [string 常用操作](https://yourbasic.org/golang/string-functions-reference-cheat-sheet/)
 * [将数字格式化为千分位的字符串](https://gosamples.dev/print-number-thousands-separator/)
 
@@ -41,6 +43,7 @@
 
 * [Go 正则表达式](https://zetcode.com/golang/regex/)
 * [Golang-Regex-Tutorial](https://github.com/StefanSchroeder/Golang-Regex-Tutorial) 这个教程非常全面
+* [使用正则对字符串进行替换](https://www.geeksforgeeks.org/golang-replacing-all-string-which-matches-with-regular-expression/)
 
 ## Files
 
@@ -73,12 +76,9 @@
 
 ## Security
 
-## Testing
+## 范型
 
-* [Testify: easy assertions and mocking](https://github.com/stretchr/testify/)
-* [使用 benchmark 测试函数性能](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go)
-
-## Reflection
+* [Go 范型 Cheatsheet](https://gosamples.dev/generics-cheatsheet/)
 
 ## 标准库
 
@@ -93,6 +93,13 @@
 
 * [Algorithms implemented in Go (for education)](https://github.com/TheAlgorithms/Go)
 * [数据结构与算法](https://awesome-go.com/data-structures-and-algorithms/)
+
+## Testing
+
+* [Testify: easy assertions and mocking](https://github.com/stretchr/testify/)
+* [使用 benchmark 测试函数性能](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go)
+
+## Reflection
 
 # 存储
 
