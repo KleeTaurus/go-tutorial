@@ -18,6 +18,7 @@
 * [iota 的使用方法](https://yourbasic.org/golang/iota/)
 * [获取对象类型](https://yourbasic.org/golang/find-type-of-object/)
 * [读取环境变量](https://yourbasic.org/golang/environment-variables/)
+* [JSON 使用最佳实践](https://yourbasic.org/golang/json-example/#encode-marshal-struct-to-json)
 
 ## Arrays, Slices 和 Maps
 
