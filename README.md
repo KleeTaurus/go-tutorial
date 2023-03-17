@@ -171,6 +171,7 @@
 * [Golang By Example](https://golangbyexample.com/)
 * [Go tips and snippets](https://freshman.tech/snippets/go/)
 * [Go from the beginning](https://softchris.github.io/golang-book/)
+* [Practical Go Lessons](https://www.practical-go-lessons.com/)
 
 # 其他好的文章
 
