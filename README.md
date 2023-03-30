@@ -49,6 +49,7 @@
 ## Files
 
 * [逐行读取文件内容](https://yourbasic.org/golang/read-file-line-by-line/)
+* [逐字(Word)读取文件内容](https://golangbyexample.com/read-large-file-word-by-word-go/)
 * [往文件中追加内容](https://yourbasic.org/golang/append-to-file/)
 * [读取指定目录下的文件列表](https://yourbasic.org/golang/list-files-in-directory/)
 
