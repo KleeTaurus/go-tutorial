@@ -73,6 +73,7 @@
 * [mutex 互斥锁的使用方法](https://yourbasic.org/golang/mutex-explained/)
 * [What are channels used for?](https://stackoverflow.com/questions/39826692/what-are-channels-used-for)
 * [Concurrency in Go with Goroutines and Channel](https://blog.knoldus.com/achieving-concurrency-in-go/)
+* [使用 WaitGroup 时如何限制并发请求的数量](https://www.perplexity.ai/search/cf535041-1366-4e44-9a60-8d48e53d2787?s=c)
 
 ## Interfaces
 
