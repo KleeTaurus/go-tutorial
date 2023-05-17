@@ -121,6 +121,7 @@
 ## Kafka
 
 * [kafka-go](https://github.com/segmentio/kafka-go)
+* [Getting Started with Apache Kafka and Go](https://developer.confluent.io/get-started/go/?curius=2202#introduction)
 
 # 框架
 
