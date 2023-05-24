@@ -12,6 +12,7 @@
 
 * [Go 开发工具介绍](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
 * [如何使用 Delve debug Go 程序](https://golang.cafe/blog/golang-debugging-with-delve.html)
+* [Swag converts Go annotations to Swagger Documentation 2.0](https://github.com/swaggo/swag)
 
 ## Basic
 
