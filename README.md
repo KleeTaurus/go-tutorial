@@ -136,6 +136,7 @@
 
 * [GORM](https://github.com/go-gorm/gorm/) The fantastic ORM library for Golang, aims to be developer friendly
 * [API 文档及示例](https://gorm.io/docs/)
+* [Go ORM框架 - GORM 踩坑指南](https://www.cnblogs.com/rickiyang/p/14517120.html)
 
 # 系统设计
 
