@@ -188,3 +188,4 @@
 * [Golang Echo Tutorial : Build a REST API with Golang Echo and PostgreSQL](https://www.kelche.co/blog/go/golang-echo-tutorial/)
 * [Introduction to Wails - Desktop Apps in Go - Project Structure](https://thedevelopercafe.com/articles/introduction-to-wails-build-desktop-apps-with-go-project-structure-17ee3f7fcdf7)
 * [Setup nested HTML template in Go Echo web framework](https://dev.to/ykyuen/setup-nested-html-template-in-go-echo-web-framework-e9b)
+* [Creating Golang cron jobs](https://www.airplane.dev/blog/creating-golang-cron-jobs)
