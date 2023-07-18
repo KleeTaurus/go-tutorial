@@ -72,6 +72,7 @@
 * [如何通过 --race 参数检查代码是否存在 Data races 问题](https://yourbasic.org/golang/detect-data-races/)
 * [等待 goroutines 执行结束](https://yourbasic.org/golang/wait-for-goroutines-waitgroup/)
 * [mutex 互斥锁的使用方法](https://yourbasic.org/golang/mutex-explained/)
+* [Using a Mutex in Go (Golang) - with Examples](https://www.sohamkamani.com/golang/mutex/)
 * [What are channels used for?](https://stackoverflow.com/questions/39826692/what-are-channels-used-for)
 * [Concurrency in Go with Goroutines and Channel](https://blog.knoldus.com/achieving-concurrency-in-go/)
 * [使用 WaitGroup 时如何限制并发请求的数量](https://www.perplexity.ai/search/cf535041-1366-4e44-9a60-8d48e53d2787?s=c)
