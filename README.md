@@ -191,3 +191,4 @@
 * [Setup nested HTML template in Go Echo web framework](https://dev.to/ykyuen/setup-nested-html-template-in-go-echo-web-framework-e9b)
 * [Creating Golang cron jobs](https://www.airplane.dev/blog/creating-golang-cron-jobs)
 * [在gin框架中使用JWT](https://www.liwenzhou.com/posts/Go/jwt_in_gin/)
+* [Go语言学习之路/Go语言教程](https://www.liwenzhou.com/posts/Go/golang-menu/)
