@@ -192,3 +192,4 @@
 * [Creating Golang cron jobs](https://www.airplane.dev/blog/creating-golang-cron-jobs)
 * [在gin框架中使用JWT](https://www.liwenzhou.com/posts/Go/jwt_in_gin/)
 * [Go语言学习之路/Go语言教程](https://www.liwenzhou.com/posts/Go/golang-menu/)
+* [Develop command line applications in Go with flag package](https://thedevelopercafe.com/articles/develop-command-line-applications-in-go-with-flag-package-720bff7f2c04)
